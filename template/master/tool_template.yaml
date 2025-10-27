@@ -1,0 +1,13 @@
+version: "0.0.1"
+name: "$TOOL_NAME"
+description: "$TOOL_DESCRIPTION"
+execution_policy:
+  default_mode: "$DEFAULT_MODE"
+  allowed_modes: [$ALLOWED_MODES]
+execution_environment:
+  type: "$EXECUTION_TYPE"
+  command: "$COMMAND" # (Optional)
+  target: "$TARGET"
+  # ตัวอย่าง: "https://api.example.com/v1" หรือ "$WORKSPACE_PATH/data.csv"
+  endpoint: "$ENDPOINT_PLACEHOLDER"
+  requirements: [$REQUIREMENTS]
