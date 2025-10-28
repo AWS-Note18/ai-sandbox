@@ -1,0 +1,20 @@
+{
+  "name": "vendor/multi-package-project",
+  "description": "A PHP component for the multi-package project.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\MultiPackageProject\\": "src/"
+    }
+  }
+}

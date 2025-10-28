@@ -1,0 +1,19 @@
+name: "self-improvement-agent"
+version: "1.0.0"
+description: "An advanced AI agent designed for self-improvement through iterative learning and feedback loops."
+imports:
+  prompts:
+    - "prompt/learning/self_improvement_prompt.yaml"
+    - "prompt/system/prompt_improver_prompt.yaml"
+  rules:
+    - "rule/learning/self_improvement_rules.md"
+    - "rule/standard_behavioral_rules.md"
+  tools:
+    - "tool/learning/error_analysis.yaml"
+    - "tool/learning/feedback_loop.yaml"
+    - "tool/learning/parallel_processing.yaml"
+    - "tool/learning/batch_operations.yaml"
+    - "tool/learning/lifecycle_management.yaml"
+    - "tool/learning/evaluate_answer.yaml"
+    - "tool/learning/find_analogy.yaml"
+    - "tool/learning/generate_quiz.yaml"

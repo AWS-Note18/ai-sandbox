@@ -1,0 +1,6 @@
+pyproject.toml
+src/multi_package_project_python.egg-info/PKG-INFO
+src/multi_package_project_python.egg-info/SOURCES.txt
+src/multi_package_project_python.egg-info/dependency_links.txt
+src/multi_package_project_python.egg-info/requires.txt
+src/multi_package_project_python.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+console.log("Hello from the Node.js part of the multi-package project!");

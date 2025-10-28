@@ -1,0 +1,17 @@
+# ชื่อ Tool (จะถูกแทนที่)
+name: "feedback_loop"
+# คำอธิบายสำหรับคนอ่าน (จะถูกแทนที่)
+description: "จัดการ feedback loop สำหรับการเรียนรู้และปรับปรุงจากข้อผิดพลาด"
+# นโยบายการทำงาน (จะถูกแทนที่)
+execution_policy:
+  default_mode: "auto"
+  allowed_modes: [manual, auto]
+# สภาพแวดล้อมการทำงาน (จะถูกแทนที่)
+execution_environment:
+  type: "internal_function"
+  command: "$COMMAND" # (Optional)
+  target: "$TARGET"
+  # ใส่ Endpoint URL หรือ Path ที่นี่
+  # ตัวอย่าง: "https://api.example.com/v1" หรือ "$WORKSPACE_PATH/data.csv"
+  endpoint: "$ENDPOINT_PLACEHOLDER"
+  requirements: [$REQUIREMENTS]

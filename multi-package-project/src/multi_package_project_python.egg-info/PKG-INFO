@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: multi-package-project-python
+Version: 0.1.0
+Summary: A Python component for the multi-package project.
+Author-email: Your Name <your@example.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests

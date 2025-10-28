@@ -8,7 +8,12 @@
     "start": "node server.js",
     "dev": "NODE_ENV=development node server.js",
     "test": "node scripts/smoke-test.js",
-    "lint": "npx eslint . --ext .js,.ts"
+    "lint": "npx eslint . --ext .js,.ts",
+    "python-cli": "python3 cli/python/main.py",
+    "php-cli": "php cli/php/main.php",
+    "ruby-cli": "ruby cli/ruby/main.rb",
+    "pnpm-install": "pnpm install",
+    "pnpm-start": "pnpm start"
   },
   "engines": {
     "node": ">=18"
